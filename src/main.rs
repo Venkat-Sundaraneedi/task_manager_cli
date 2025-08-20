@@ -5,7 +5,7 @@
 
 use clap::Parser;
 use log::{debug, error, info};
-use task_manager::app::storage;
+use task_manager_command_line::app::storage;
 use task_manager_command_line::{AppError, Cli, Commands, Result, Task};
 
 fn main() -> Result<()> {
