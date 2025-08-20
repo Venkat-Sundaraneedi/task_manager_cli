@@ -2,6 +2,8 @@
 name = "task_manager"
 version = "0.1.0"
 edition = "2024"
+description = "A simple task manager cli tool"
+license = "MIT"
 
 [dependencies]
 chrono = { version = "0.4.41", features = ["serde"] }
